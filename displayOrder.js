@@ -4,4 +4,6 @@ function displayOrder(tableau) {
     tableau.sort();
     console.log(tableau);
 }
-module.exports = displayOrder(tab);
+
+displayOrder(tab);
+module.exports = displayOrder;
