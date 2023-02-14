@@ -4,4 +4,6 @@ function showWords(mots){
          console.log(mots[i]);
      }
 }
-module.exports = showWords(tab);
+
+showWords(tab);
+module.exports = showWords;
