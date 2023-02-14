@@ -1,9 +1,9 @@
 let sentence = "Bonjour, chers candidat comment vous allez aujourd'hui";
 
-function countAcaracter(){   
-    console.log("Le nombre d'occurrences de 'a' est :", sentence.split("a").length-1);
+function countAcaracter(text){   
+    console.log("Le nombre d'occurrences de 'a' est :", text.split("a").length-1);
     
 }
 
-countAcaracter();
+countAcaracter(sentence);
 module.exports = countAcaracter;
