@@ -5,4 +5,5 @@ function countAcaracter(){
     
 }
 
-module.exports = countAcaracter();
+countAcaracter();
+module.exports = countAcaracter;
