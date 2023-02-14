@@ -5,4 +5,5 @@ function displayNumber(tableau) {
     }
 }
 
-module.exports = displayNumber(tab);
+displayNumber(tab);
+module.exports = displayNumber;
